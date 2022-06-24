@@ -1,0 +1,18 @@
+{
+  "name": "sample-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node lib/server.js",
+    "dev": "nodemon lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "author": "",
+  "license": "ISC"
+}
