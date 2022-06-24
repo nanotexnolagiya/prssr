@@ -1,6 +1,6 @@
 {
   "name": "prssr",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Pure React Server Side Render runner",
   "main": "bin/prssr.js",
   "bin": {
@@ -27,7 +27,7 @@
     "chalk": "^4.1.2",
     "commander": "^9.3.0",
     "esm": "^3.2.25",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^17.2.0",
+    "react-dom": "^17.2.0"
   }
 }
