@@ -1,7 +1,7 @@
 {
   "name": "prssr",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Pure React Server Side Render runner",
   "main": "bin/prssr.js",
   "bin": {
     "prssr": "./bin/prssr.js"
@@ -9,14 +9,19 @@
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "start": "node lib/server.js",
-    "dev": "nodemon lib/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": ["ssr", "react", "cli"],
+  "homepage": "https://github.com/nanotexnolagiya/prssr",
+  "bugs": {
+    "url": "https://github.com/nanotexnolagiya/prssr/issues",
+    "email": "nanotexnolagiya@gmail.com"
   },
-  "keywords": [],
   "type": "commonjs",
-  "author": "",
+  "author": "Islomkhuja",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanotexnolagiya/prssr.git"
+  },
+  "contributors": ["Khurmatillo"],
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
